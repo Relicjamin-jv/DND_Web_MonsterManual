@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    padding: 0px;
+    margin: 0px;
+}
+
+#monster-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+#page-title {
+    text-align: center;
+}
+
+.monster {
+    width: 40rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 1rem;
+}
+
+.monster-stats {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.attribute-name {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.attribute-description {
+    text-align: justify;
+}
+
+.monster-name {
+    display: inline;
+}
